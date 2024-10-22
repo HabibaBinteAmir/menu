@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* headerpart starts */
+.logo_with_menu{
+    display: flex;
+}
+.logo{
+    width: 10%;
+    padding-top: 25px;
+
+}
+.menu{
+    width: 75%;
+    text-align: center;
+
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a {
+    padding: 0 36px;
+    line-height: 100px;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.icon{
+    padding-top: 40px;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* headerpart end */
